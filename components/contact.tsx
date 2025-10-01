@@ -76,15 +76,11 @@ export function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "oladepotesleem5@gmail.com",
-      href: "mailto:oladepotesleem5@gmail.com",
       color: "var(--color-electric-blue)",
     },
     {
       icon: Phone,
       title: "Phone",
-      value: "+234 703 865 5608",
-      href: "tel:+2347038655608",
       color: "var(--color-warm-orange)",
     },
     {
