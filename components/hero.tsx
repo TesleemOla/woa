@@ -80,7 +80,7 @@ export function Hero() {
                 }`}
                 style={{ transitionDelay: "200ms" }}
               >
-                Hi, I'm Waidi O.A(Ph.D)
+                Hi, I'm Waidi O.A
               </span>
             </h1>
             <h2
@@ -157,7 +157,7 @@ export function Hero() {
             </Link>
             <Link href="/contact">
               <Button
-                size="lg" 
+                size="lg"
                 variant="outline"
                 className="border-[color:var(--color-electric-blue)] text-[color:var(--color-electric-blue)]  hover:scale-105 bg-transparent"
               >
@@ -167,7 +167,7 @@ export function Hero() {
           </div>
 
           {/* Social Links */}
-          <div
+          {/* <div
             className={`flex items-center justify-center gap-6 pt-8 my-5 transition-all duration-1000 ease-out ${
               isLoaded ? "translate-y-0 opacity-100" : "translate-y-8 opacity-0"
             }`}
@@ -198,7 +198,7 @@ export function Hero() {
                 />
               </a>
             ))}
-          </div>
+          </div>*/}
         </div>
 
         {/* Scroll Indicator */}

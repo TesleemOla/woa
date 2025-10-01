@@ -351,7 +351,7 @@ export function Contact() {
           style={{ transitionDelay: "1200ms" }}
         >
           <p className="text-muted-foreground">
-            © 2025 Tesleem Oladepo. Built with Next.js, TypeScript, and Tailwind CSS.
+            © 2025 WOA. Built with Next.js, TypeScript, and Tailwind CSS.
           </p>
         </div>
     </section>

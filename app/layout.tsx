@@ -34,7 +34,7 @@ export default function RootLayout({
       lang="en"
       className={`${spaceGrotesk.variable} ${sourceSans.variable} antialiased`}
     >
-      <body className="font-sans">
+      <body className="font-sans 2xl:px-[10rem]">
         <Navigation />
         <PageTransition>{children}</PageTransition>
         <ScrollToTop />
