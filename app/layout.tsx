@@ -19,7 +19,7 @@ const sourceSans = Source_Sans_3({
 })
 
 export const metadata: Metadata = {
-  title: "Tesleem Oladepo - FullStack Developer",
+  title: "WOA- FullStack Developer",
   description:
     "Experienced FullStack Developer with 3+ years in React.js and Node.js. Building scalable web applications with modern technologies.",
 }
