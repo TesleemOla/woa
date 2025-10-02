@@ -75,7 +75,7 @@ export function About() {
   ]
 
   const stats = [
-    { icon: Award, value: "3+", label: "Years Experience", color: "var(--color-electric-blue)" },
+    { icon: Award, value: "4+", label: "Years Experience", color: "var(--color-electric-blue)" },
     { icon: Users, value: "30+", label: "Projects Completed", color: "var(--color-warm-orange)" },
     { icon: Coffee, value: "10+", label: "Technologies", color: "var(--color-navy)" },
     { icon: Heart, value: "100%", label: "Satisfied Clients", color: "var(--color-electric-blue)" },
