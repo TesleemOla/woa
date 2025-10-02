@@ -86,7 +86,7 @@ export function Contact() {
     {
       icon: MapPin,
       title: "Location",
-      value: "Nigeria",
+      value: "United Kingdom",
       href: "#",
       color: "var(--color-navy)",
     },

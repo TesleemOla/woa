@@ -81,33 +81,7 @@ export function About() {
     { icon: Heart, value: "100%", label: "Satisfied Clients", color: "var(--color-electric-blue)" },
   ]
 
-  const milestones = [
-    {
-      year: "Dec 2024",
-      title: "Full Stack Developer (Remote)",
-      description: "CareerOnTrack.ai",
-    },
-    {
-      year: "Oct 2022",
-      title: "Frontend Developer (Remote)",
-      description: "iKooK UK",
-    },
-    {
-      year: "June 2021",
-      title: "First Role (intern)",
-      description: "Sidehustle",
-    },
-    {
-      year: "June 2019",
-      title: "Bachelors' Degree",
-      description: "Completed Bachelors' Degree",
-    },
-    {
-      year: "Feb 2019",
-      title: "Started Journey",
-      description: "Started learning web development",
-    },
-  ];
+
 
   return (
     <section
@@ -140,7 +114,7 @@ export function About() {
             style={{ transitionDelay: "200ms" }}
           >
             I'm a passionate, dedicated, and detail-oriented FullStack developer with over
-             3 years of experience building robust, scalable and responsive web
+             4 years of experience building robust, scalable and responsive web
             applications. I love turning complex problems into simple, beautiful, and intuitive solutions.
           </p>
         </div>
@@ -201,28 +175,6 @@ export function About() {
                   When I'm not coding, you'll find me exploring new technologies, contributing to open source projects,
                   or sharing knowledge with the developer community.
                 </p>
-              </div>
-
-              {/* Timeline */}
-              <div className="space-y-4">
-                <h4 className="font-display font-semibold mb-4 text-[color:var(--color-electric-blue)]">Timeline</h4>
-                {milestones.map((milestone, index) => (
-                  <div
-                    key={index}
-                    className={`flex items-start gap-4 p-3 rounded-lg hover:bg-accent/20 transition-all duration-300 ${
-                      isVisible ? "translate-x-0 opacity-100" : "-translate-x-4 opacity-0"
-                    }`}
-                    style={{ transitionDelay: `${800 + index * 100}ms` }}
-                  >
-                    <div className="flex-shrink-0 w-12 h-12 bg-[color:var(--color-navy)]/10 rounded-full flex items-center justify-center">
-                      <span className="text-xs font-bold text-[color:var(--color-navy)]">{milestone.year}</span>
-                    </div>
-                    <div>
-                      <h5 className="font-semibold text-sm">{milestone.description}</h5>
-                      <p className="text-xs text-muted-foreground">{milestone.title}</p>
-                    </div>
-                  </div>
-                ))}
               </div>
             </div>
 

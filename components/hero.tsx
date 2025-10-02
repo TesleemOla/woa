@@ -80,7 +80,7 @@ export function Hero() {
                 }`}
                 style={{ transitionDelay: "200ms" }}
               >
-                Hi, I'm Waidi O.A
+                Hi, I'm W.O.Abdul
               </span>
             </h1>
             <h2
