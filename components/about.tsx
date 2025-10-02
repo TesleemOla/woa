@@ -228,6 +228,7 @@ export function About() {
                     "JavaScript" ,
                     "HTML5" ,
                    "CSS3",
+                   "Excel for Business Data Analysis"
                   ].map((skill, index) => (
                     <div
                       key={skill}
